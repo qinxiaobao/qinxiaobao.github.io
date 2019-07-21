@@ -862,83 +862,6 @@ pre .javascript .function {
 .post-body .note.danger h6 {
   color: #d9534f;
 }
-.post-body .tabs {
-  position: relative;
-  display: block;
-  margin-bottom: 20px;
-  padding-top: 10px;
-}
-.post-body .tabs ul.nav-tabs {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: -1px;
-}
-@media (max-width: 413px) {
-  .post-body .tabs ul.nav-tabs {
-    display: block;
-    margin-bottom: 5px;
-  }
-}
-.post-body .tabs ul.nav-tabs li.tab {
-  flex-grow: 1;
-  list-style-type: none;
-  border-top: 3px solid transparent;
-  border-right: 1px solid transparent;
-  border-bottom: 1px solid #ddd;
-  border-left: 1px solid transparent;
-}
-@media (max-width: 413px) {
-  .post-body .tabs ul.nav-tabs li.tab {
-    border-top: 1px solid transparent;
-    border-right: 1px solid transparent;
-    border-bottom: 1px solid transparent;
-    border-left: 3px solid transparent;
-  }
-}
-.post-body .tabs ul.nav-tabs li.tab a {
-  text-align: center;
-  outline: 0;
-  border-bottom: initial;
-  display: block;
-  line-height: 1.8em;
-  padding: 0.25em 0.75em;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-out;
-  transition-delay: 0s;
-}
-.post-body .tabs ul.nav-tabs li.tab a i {
-  width: 1.285714285714286em;
-}
-.post-body .tabs ul.nav-tabs li.tab.active {
-  border-top: 3px solid #fc6423;
-  border-right: 1px solid #ddd;
-  border-bottom: 1px solid transparent;
-  border-left: 1px solid #ddd;
-}
-@media (max-width: 413px) {
-  .post-body .tabs ul.nav-tabs li.tab.active {
-    border-top: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    border-left: 3px solid #fc6423;
-  }
-}
-.post-body .tabs ul.nav-tabs li.tab.active a {
-  cursor: default;
-  color: #555;
-}
-.post-body .tabs .tab-content .tab-pane {
-  border: 1px solid #ddd;
-  padding: 20px 20px 0 20px;
-}
-.post-body .tabs .tab-content .tab-pane:not(.active) {
-  display: none;
-}
-.post-body .tabs .tab-content .tab-pane.active {
-  display: block;
-}
 .btn {
   display: inline-block;
   padding: 0 20px;
@@ -1741,7 +1664,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3386ff;
+  background: #c3ffd7;
 }
 .feed-link,
 .chat {
